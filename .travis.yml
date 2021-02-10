@@ -1,0 +1,13 @@
+services:
+ - docker
+
+install:
+ - echo "No hay nada que instalar"
+
+script:
+ - docker build -t saludo-julio .
+ - docker tag saludo-julio juliocelon/saludo-julio:latest
+
+arfter_success:
+ - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+ - docker push juliocelon/saludo-julio
