@@ -1,0 +1,30 @@
+- Nombre: pedro
+  Apellido: martinez
+  Edad: 25
+  Genero: M
+  Estado civil: C
+  Hijos:
+        - Nombre: pedro
+	  Apellido: martinez
+	  Edad: 5
+	  Genero: M
+	  Estado civil: S
+	  Hijos:[]
+	- Nombre: luis
+	  Apellido: martinez
+	  Edad: 2
+	  Genero: M
+	  Estado civil: S
+	  Hijos:[]
+- Nombre: Mario
+  Apellido: hernandez
+  Edad: 27
+  Genero: M
+  Estado civil: C
+  Hijos:
+        - Nombre: jose
+	  Apellido: hernandez
+	  Edad: 7
+	  Genero: M
+	  Estado civil: S
+	  Hijos:[]
